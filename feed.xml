@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<channel>
+<title>Jutarnji IT izveštaj</title>
+<link>https://icemonk79.github.io/it-rss/</link>
+<description>Dnevni pregled IT, sajber bezbednosti, hardvera i kripto vesti</description>
+<language>sr</language>
+<lastBuildDate>Sat, 14 Nov 2026 12:00:00 +0100</lastBuildDate>
+<item>
+<title>Jutarnji IT izveštaj – subota, 14. 11. 2026.</title>
+<guid isPermaLink="false">it-izvestaj-2026-11-14</guid>
+<pubDate>Sat, 14 Nov 2026 12:00:00 +0100</pubDate>
+<description><![CDATA[<h2>⚡ Najvažnije danas</h2>
+<ul>
+<li>Microsoft je posle skoro dva dana potpuno vratio Outlook, Teams i Copilot. <a href="https://www.theverge.com/tech/1033864/microsoft-has-finished-restoring-service-after-its-massive-outlook-outage">Više</a></li>
+<li>Jensen Huang je podneo ostavku na mesto direktora NVIDIA-e, a privremeno je vodi finansijska direktorka Colette Kress. <a href="https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition">Više</a></li>
+<li>Kripto je u crvenom: ETH je pao ispod $2.000 prvi put od avgusta. <a href="https://biturai.com/en/daily-brief/2026-11-14">Više</a></li>
+</ul>
+<h2>🔥 Ispadi</h2>
+<ul>
+<li>Outlook/M365 nije radio od četvrtka, sa prijavama iz preko 70 zemalja. Uzrok je greška pri ranijem proširenju mrežnog kapaciteta, a ne napad. Zakasneli mejlovi stižu sa vremenom isporuke, ne slanja. <a href="https://www.bbc.co.uk/news/articles/cwvg238zrnm5o">Više</a></li>
+</ul>
+<h2>🛡️ Sajber bezbednost</h2>
+<ul>
+<li>Check Point ima zero-day (CVE-2026-123039) koji napadači već koriste da dobiju root na gateway-ima, a lanac se završava wiperom na VMware ESXi. Instalirajte novembarski Jumbo Hotfix. <a href="https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/">Više</a></li>
+<li>Cursor je potvrdio upad: preko njihovog marketplace-a se 11 sati delila zaražena Claude Code ekstenzija (verzije 2.1.312 i 2.1.313) sa SSH backdoor-om. <a href="https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/">Više</a></li>
+<li>SAD su ugasile severnokorejsku kampanju „FaceStealer“ (deepfake pozivi + ClickFix), koja je ukrala preko $400M u kriptu. <a href="https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/">Više</a></li>
+</ul>
+<h2>🌐 Mreže</h2>
+<ul>
+<li>Fortinet je izbacio ranjivost u FortiOS OSPF-u ocenjenu sa 9.3 i FortiManager FGFM grešku (9.0) za koju ne treba prijava. Za sad se ne zna da se zloupotrebljavaju, a ciljane verzije su FortiOS 7.4.13 / 7.6.8. <a href="https://invitty.com/blog/fortinet-november-2026-advisories-fortios-fortimanager-fixes">Više</a></li>
+<li>CISA je dodala staru FortiOS RCE grešku (CVE-2025-25249) u katalog aktivno zloupotrebljavanih, jer se njom širi PivotC2 RAT. <a href="https://www.securityweek.com/fortinet-code-execution-flaw-exploited-in-pivotc2-rat-attacks/">Više</a></li>
+<li>MikroTik je zakrpio grešku u Linux kernelu koja može da sruši RouterOS 7. Ispravka je u 7.25.1 stable i 7.24.6 long-term, a v6 nije pogođen. <a href="https://mikrotik.com/supportsec/cve-2026-98432/">Više</a></li>
+</ul>
+<h2>🐧 Linux</h2>
+<ul>
+<li>Izašao je Fedora 45 sa GNOME 51 i kernelom 7.2. <a href="https://www.phoronix.com/news/Fedora-45-Released">Više</a></li>
+<li>Intel je poslao prve patcheve za Linux kernel za Razor Lake i Coral Rapids. <a href="https://wccftech.com/intel-begins-early-linux-enablement-razor-lake-and-coral-rapids/">Više</a></li>
+</ul>
+<h2>🖥️ Hardver</h2>
+<ul>
+<li>AMD je predstavio Instinct MI450X i tvrdi da je MI455X do 30% brži od NVIDIA Vera Rubin u inferenci. <a href="https://newsroom.amd.com/news/amd-advances-instinct-mi400-series-ai-scientific-computing/">Više</a></li>
+</ul>
+<h2>💰 Kripto</h2>
+<ul>
+<li>BTC je oko $65.600, što je približno 8% manje od jučerašnjeg zatvaranja, a ETH oko $1.844 (oko 8,6% manje). <a href="https://exa.ai/library/markets/crypto/BTC">BTC</a> · <a href="https://exa.ai/library/markets/crypto/ETH">ETH</a></li>
+<li>Pad pokreću odliv novca iz BTC ETF-ova (preko $2,35 milijardi za dve nedelje) i rast prinosa na američke obveznice na 5,15%. Indeks straha i pohlepe je na 20, što znači „ekstremni strah“. <a href="https://biturai.com/en/daily-brief/2026-11-14">Više</a></li>
+</ul>]]></description>
+<content:encoded><![CDATA[<h2>⚡ Najvažnije danas</h2>
+<ul>
+<li>Microsoft je posle skoro dva dana potpuno vratio Outlook, Teams i Copilot. <a href="https://www.theverge.com/tech/1033864/microsoft-has-finished-restoring-service-after-its-massive-outlook-outage">Više</a></li>
+<li>Jensen Huang je podneo ostavku na mesto direktora NVIDIA-e, a privremeno je vodi finansijska direktorka Colette Kress. <a href="https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition">Više</a></li>
+<li>Kripto je u crvenom: ETH je pao ispod $2.000 prvi put od avgusta. <a href="https://biturai.com/en/daily-brief/2026-11-14">Više</a></li>
+</ul>
+<h2>🔥 Ispadi</h2>
+<ul>
+<li>Outlook/M365 nije radio od četvrtka, sa prijavama iz preko 70 zemalja. Uzrok je greška pri ranijem proširenju mrežnog kapaciteta, a ne napad. Zakasneli mejlovi stižu sa vremenom isporuke, ne slanja. <a href="https://www.bbc.co.uk/news/articles/cwvg238zrnm5o">Više</a></li>
+</ul>
+<h2>🛡️ Sajber bezbednost</h2>
+<ul>
+<li>Check Point ima zero-day (CVE-2026-123039) koji napadači već koriste da dobiju root na gateway-ima, a lanac se završava wiperom na VMware ESXi. Instalirajte novembarski Jumbo Hotfix. <a href="https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/">Više</a></li>
+<li>Cursor je potvrdio upad: preko njihovog marketplace-a se 11 sati delila zaražena Claude Code ekstenzija (verzije 2.1.312 i 2.1.313) sa SSH backdoor-om. <a href="https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/">Više</a></li>
+<li>SAD su ugasile severnokorejsku kampanju „FaceStealer“ (deepfake pozivi + ClickFix), koja je ukrala preko $400M u kriptu. <a href="https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/">Više</a></li>
+</ul>
+<h2>🌐 Mreže</h2>
+<ul>
+<li>Fortinet je izbacio ranjivost u FortiOS OSPF-u ocenjenu sa 9.3 i FortiManager FGFM grešku (9.0) za koju ne treba prijava. Za sad se ne zna da se zloupotrebljavaju, a ciljane verzije su FortiOS 7.4.13 / 7.6.8. <a href="https://invitty.com/blog/fortinet-november-2026-advisories-fortios-fortimanager-fixes">Više</a></li>
+<li>CISA je dodala staru FortiOS RCE grešku (CVE-2025-25249) u katalog aktivno zloupotrebljavanih, jer se njom širi PivotC2 RAT. <a href="https://www.securityweek.com/fortinet-code-execution-flaw-exploited-in-pivotc2-rat-attacks/">Više</a></li>
+<li>MikroTik je zakrpio grešku u Linux kernelu koja može da sruši RouterOS 7. Ispravka je u 7.25.1 stable i 7.24.6 long-term, a v6 nije pogođen. <a href="https://mikrotik.com/supportsec/cve-2026-98432/">Više</a></li>
+</ul>
+<h2>🐧 Linux</h2>
+<ul>
+<li>Izašao je Fedora 45 sa GNOME 51 i kernelom 7.2. <a href="https://www.phoronix.com/news/Fedora-45-Released">Više</a></li>
+<li>Intel je poslao prve patcheve za Linux kernel za Razor Lake i Coral Rapids. <a href="https://wccftech.com/intel-begins-early-linux-enablement-razor-lake-and-coral-rapids/">Više</a></li>
+</ul>
+<h2>🖥️ Hardver</h2>
+<ul>
+<li>AMD je predstavio Instinct MI450X i tvrdi da je MI455X do 30% brži od NVIDIA Vera Rubin u inferenci. <a href="https://newsroom.amd.com/news/amd-advances-instinct-mi400-series-ai-scientific-computing/">Više</a></li>
+</ul>
+<h2>💰 Kripto</h2>
+<ul>
+<li>BTC je oko $65.600, što je približno 8% manje od jučerašnjeg zatvaranja, a ETH oko $1.844 (oko 8,6% manje). <a href="https://exa.ai/library/markets/crypto/BTC">BTC</a> · <a href="https://exa.ai/library/markets/crypto/ETH">ETH</a></li>
+<li>Pad pokreću odliv novca iz BTC ETF-ova (preko $2,35 milijardi za dve nedelje) i rast prinosa na američke obveznice na 5,15%. Indeks straha i pohlepe je na 20, što znači „ekstremni strah“. <a href="https://biturai.com/en/daily-brief/2026-11-14">Više</a></li>
+</ul>]]></content:encoded>
+</item>
+</channel>
+</rss>
