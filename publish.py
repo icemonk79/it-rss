@@ -45,7 +45,7 @@ xml=f'''<?xml version="1.0" encoding="UTF-8"?>
 </channel>
 </rss>
 '''
-import xml.dom.minidom; xml.dom.minidom.parseString(xml.encode())
+from xml.dom import minidom as _minidom; _minidom.parseString(xml.encode())
 open('feed.xml','w',encoding='utf-8').write(xml)
 g=['git','-c','user.name=icemonk79','-c','user.email=icemonk79@users.noreply.github.com']
 subprocess.run(['git','pull','-q','--rebase'],check=False)

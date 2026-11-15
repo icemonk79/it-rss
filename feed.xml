@@ -5,82 +5,95 @@
 <link>https://icemonk79.github.io/it-rss/</link>
 <description>Dnevni pregled IT, sajber bezbednosti, hardvera i kripto vesti</description>
 <language>sr</language>
-<lastBuildDate>Sat, 14 Nov 2026 12:00:00 +0100</lastBuildDate>
+<lastBuildDate>Sun, 15 Nov 2026 06:31:26 +0100</lastBuildDate>
 <item>
-<title>Jutarnji IT izveštaj – subota, 14. 11. 2026.</title>
-<guid isPermaLink="false">it-izvestaj-2026-11-14</guid>
-<pubDate>Sat, 14 Nov 2026 12:00:00 +0100</pubDate>
-<description><![CDATA[<h2>⚡ Najvažnije danas</h2>
+<title>Jutarnji IT izveštaj – nedelja, 15. 11. 2026.</title>
+<link>https://icemonk79.github.io/it-rss/</link>
+<guid isPermaLink="false">it-izvestaj-2026-11-15-0631</guid>
+<pubDate>Sun, 15 Nov 2026 06:31:26 +0100</pubDate>
+<description><![CDATA[<h2>☀️ Jutarnji IT izveštaj – nedelja, 15. 11. 2026.</h2>
+<h2>⚡ Najvažnije danas</h2>
 <ul>
-<li>Microsoft je posle skoro dva dana potpuno vratio Outlook, Teams i Copilot. <a href="https://www.theverge.com/tech/1033864/microsoft-has-finished-restoring-service-after-its-massive-outlook-outage">Više</a></li>
-<li>Jensen Huang je podneo ostavku na mesto direktora NVIDIA-e, a privremeno je vodi finansijska direktorka Colette Kress. <a href="https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition">Više</a></li>
-<li>Kripto je u crvenom: ETH je pao ispod $2.000 prvi put od avgusta. <a href="https://biturai.com/en/daily-brief/2026-11-14">Više</a></li>
+<li>Jedan ruter na FAA lokaciji izazvao je zabranu poletanja u celim SAD, a haos traje do nedelje uveče. <a href="https://www.nbcnews.com/news/us-news/router-problem-one-faa-site-led-nationwide-ground-stop-rcna609325">Više</a></li>
+<li><b>UnrealIRCd CVE-2026-114713</b> se već napada. Ažurirajte na 6.2.7.1. <a href="https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html">Više</a></li>
+<li><b>BTC</b> je pao na $62.112, najniže od jula, uz oko $2 milijarde likvidacija. <a href="https://www.straitstimes.com/business/bitcoin-tumbles-to-three-month-low-as-liquidations-accelerate">Više</a></li>
 </ul>
-<h2>🔥 Ispadi</h2>
+<h2>🔥 Ispadi i incidenti</h2>
 <ul>
-<li>Outlook/M365 nije radio od četvrtka, sa prijavama iz preko 70 zemalja. Uzrok je greška pri ranijem proširenju mrežnog kapaciteta, a ne napad. Zakasneli mejlovi stižu sa vremenom isporuke, ne slanja. <a href="https://www.bbc.co.uk/news/articles/cwvg238zrnm5o">Više</a></li>
+<li><b>FAA (kontrola leta u SAD)</b>: novi ruter na jednoj udaljenoj FAA lokaciji zatrpao je mrežu kontrole leta zahtevima za konekciju. Desilo se tokom rutinske zamene starih bakarnih linija optikom. Poremećaj je pogodio 17 od 22 centra. U subotu je otkazano preko 6.400 letova, a preko 8.000 je kasnilo. Normalan saobraćaj se očekuje tek kasno u nedelju. Pouka: jedna loša mrežna promena bez izolacije može da obori ceo sistem. <a href="https://www.nbcnews.com/news/us-news/router-problem-one-faa-site-led-nationwide-ground-stop-rcna609325">Više</a> · <a href="https://www.reuters.com/3fec1b0a85a0/business/aerospace-defense/thousands-us-flights-canceled-delayed-air-travel-system-recovers-shutdown-2026-11-14/">Reuters</a></li>
 </ul>
 <h2>🛡️ Sajber bezbednost</h2>
 <ul>
-<li>Check Point ima zero-day (CVE-2026-123039) koji napadači već koriste da dobiju root na gateway-ima, a lanac se završava wiperom na VMware ESXi. Instalirajte novembarski Jumbo Hotfix. <a href="https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/">Više</a></li>
-<li>Cursor je potvrdio upad: preko njihovog marketplace-a se 11 sati delila zaražena Claude Code ekstenzija (verzije 2.1.312 i 2.1.313) sa SSH backdoor-om. <a href="https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/">Više</a></li>
-<li>SAD su ugasile severnokorejsku kampanju „FaceStealer“ (deepfake pozivi + ClickFix), koja je ukrala preko $400M u kriptu. <a href="https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/">Više</a></li>
+<li><b>UnrealIRCd CVE-2026-114713</b> (CVSS 8.6): modul labeled-response ne „čisti“ IRCv3 label tag. Na mreži sa 2+ povezana servera, običan korisnik može da ubaci komande koje se izvršavaju sa ovlašćenjima servera. Pogođene su verzije od 6.0.0 do pre 6.2.7.1. Napadi su krenuli dan posle hotfix-a od 7. novembra, a CISA ga je stavila u KEV. Ažurirajte na <b>6.2.7.1</b>. <a href="https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html">Više</a></li>
+<li><b>Check Point CVE-2026-123039</b> (novo u priči od juče): CISA ga je dodala u KEV katalog. Savezne agencije moraju da zakrpe do 16. novembra i da urade forenzičku proveru. Ako imate Check Point gateway, ne čekajte ponedeljak sa hotfix-om. <a href="https://securityaffairs.com/203040/hacking/u-s-cisa-adds-check-point-and-unrealircd-flaws-to-its-known-exploited-vulnerabilities-catalog.html">Više</a></li>
+<li><b>Quantum Systems</b> (nemački proizvođač vojnih dronova): napadači su preko kompromitovanog update servera poslali zlonamerni update za <b>QBase</b>, softver za planiranje misija. Nemačka vojska je dronove iz predostrožnosti prizemljila. Istragu vode MAD, BfV i BSI. Još jedan napad preko lanca snabdevanja (supply-chain). <a href="https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/">Više</a></li>
 </ul>
-<h2>🌐 Mreže</h2>
+<h2>🏢 Microsoft i velike firme</h2>
 <ul>
-<li>Fortinet je izbacio ranjivost u FortiOS OSPF-u ocenjenu sa 9.3 i FortiManager FGFM grešku (9.0) za koju ne treba prijava. Za sad se ne zna da se zloupotrebljavaju, a ciljane verzije su FortiOS 7.4.13 / 7.6.8. <a href="https://invitty.com/blog/fortinet-november-2026-advisories-fortios-fortimanager-fixes">Više</a></li>
-<li>CISA je dodala staru FortiOS RCE grešku (CVE-2025-25249) u katalog aktivno zloupotrebljavanih, jer se njom širi PivotC2 RAT. <a href="https://www.securityweek.com/fortinet-code-execution-flaw-exploited-in-pivotc2-rat-attacks/">Više</a></li>
-<li>MikroTik je zakrpio grešku u Linux kernelu koja može da sruši RouterOS 7. Ispravka je u 7.25.1 stable i 7.24.6 long-term, a v6 nije pogođen. <a href="https://mikrotik.com/supportsec/cve-2026-98432/">Više</a></li>
+<li><b>Windows novembarske zakrpe</b> kvare štampu dokumenata sa slikama nulte visine ili širine (npr. „nevidljivi“ vodeni žigovi). Pogođeni su Windows 10+ i Server 2016+, najviše Word preko GDI-ja. Isti paket pravi i greške aktivacije 0x80041008, a ne instalira se na sisteme sa oktobarskim preview update-om. Ako štampa pukne posle update-a, uzrok je poznat. <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/">Više</a></li>
+<li><b>Microsoft 365 Education</b>: besplatan studentski mejl i alati se gase pri prvoj obnovi ugovora posle 1. 1. 2028. Novi besplatni A0 nema Exchange Online, SharePoint ni Teams. Okvirne cene su oko $2/$4/$6 po studentu godišnje za A2/A3/A5. Nextcloud i Collabora već nude prelazak. <a href="https://www.theregister.com/saas/2026/11/14/microsofts-school-email-bill-gives-rivals-something-to-smile-about/5309296">Više</a></li>
+<li><b>NVIDIA</b>: američki ministar finansija Scott Bessent pita da li je NVIDIA znala da prodaje AI GPU-ove fiktivnim firmama. Traži da odgovaraju svi u firmi koji su za to krivi, ali kaže da ne zna da li je Huang znao. Nova pravila ne traži, samo da se postojeća sprovode. <a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/u-s-treasury-secretary-questions-whether-nvidia-knowingly-sold-ai-gpus-to-shell-companies-says-company-itself-is-responsible-i-think-it-is-important-that-anyone-at-the-company-there-be-held-accountable-for-that">Više</a></li>
 </ul>
-<h2>🐧 Linux</h2>
+<h2>🌐 Mreže i infrastruktura</h2>
 <ul>
-<li>Izašao je Fedora 45 sa GNOME 51 i kernelom 7.2. <a href="https://www.phoronix.com/news/Fedora-45-Released">Više</a></li>
-<li>Intel je poslao prve patcheve za Linux kernel za Razor Lake i Coral Rapids. <a href="https://wccftech.com/intel-begins-early-linux-enablement-razor-lake-and-coral-rapids/">Više</a></li>
+<li><b>UniFi Network 11.0.102</b> (RC, izlazi postepeno): popravlja neuspele nadogradnje na Network 11, padanje SD-WAN tunela posle nadogradnje i gubljenje Default Network-a. Traži UniFi OS 6.0+. Pažnja: prelazak sa 10.x briše istoriju statistike i sve prebacuje na Zone-Based Firewall. Korisnici javljaju da .102 rešava zaglavljenu migraciju sa 10.6.111, pa ako ste zapeli na 11.0.99, sačekajte .102. <a href="https://community.ui.com/releases/UniFi-Network-Application-11-0-102/15b502c5-5ac6-4c96-8692-1f3616e46121">Više</a></li>
+</ul>
+<h2>🐧 Linux i open source</h2>
+<ul>
+<li><b>glibc (USN-9065-1)</b>: Ubuntu je zakrpio 7 grešaka. Najopasnije su race u obradi $ORIGIN kod setuid programa, koji može dati root lokalnom napadaču (CVE-2026-86805), i path traversal preko LANGUAGE promenljive (CVE-2026-84243). Za 24.04 ažurirajte na libc6 2.39-0ubuntu8.12. <a href="https://ubuntu.com/security/notices/USN-9065-1">Više</a></li>
+<li><b>Apache httpd (USN-9090-1)</b>: greške u mod_http2 (CVE-2026-119618) i mod_vhost_alias (CVE-2026-109163) mogu dovesti do izvršavanja koda na daljinu. Pogođeni su Ubuntu 14.04 do 26.10, a Fedora je izbacila svoje httpd/mod_http2 zakrpe. Za 24.04 ažurirajte na 2.4.58-1ubuntu8.19. <a href="https://ubuntu.com/security/notices/USN-9090-1">Više</a></li>
 </ul>
 <h2>🖥️ Hardver</h2>
 <ul>
-<li>AMD je predstavio Instinct MI450X i tvrdi da je MI455X do 30% brži od NVIDIA Vera Rubin u inferenci. <a href="https://newsroom.amd.com/news/amd-advances-instinct-mi400-series-ai-scientific-computing/">Više</a></li>
+<li><b>NVIDIA Blackwell</b>: istraživači tvrde da su DeepSeek, Kimi i drugi kineski modeli trenirani na Blackwell čipovima. Metoda je „otisak“ iz nasumične inicijalizacije težina, koji zavisi od broja SM jedinica (Hopper 132, B serija 148, GB 152). To ne dokazuje kršenje izvoznih zabrana, jer je iznajmljivanje čipova u inostranstvu zasad legalno. <a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/researchers-allege-deepseek-kimi-and-other-chinese-ai-models-were-trained-on-export-controlled-nvidia-blackwell-chips-statistical-analysis-on-model-weights-reveals-high-correlation-to-nvidia-hardware">Više</a></li>
 </ul>
 <h2>💰 Kripto</h2>
 <ul>
-<li>BTC je oko $65.600, što je približno 8% manje od jučerašnjeg zatvaranja, a ETH oko $1.844 (oko 8,6% manje). <a href="https://exa.ai/library/markets/crypto/BTC">BTC</a> · <a href="https://exa.ai/library/markets/crypto/ETH">ETH</a></li>
-<li>Pad pokreću odliv novca iz BTC ETF-ova (preko $2,35 milijardi za dve nedelje) i rast prinosa na američke obveznice na 5,15%. Indeks straha i pohlepe je na 20, što znači „ekstremni strah“. <a href="https://biturai.com/en/daily-brief/2026-11-14">Više</a></li>
+<li><b>BTC</b> je na $64.833 (−3,3%), a <b>ETH</b> na $1.806,83 (−4,8%). Promena se meri u odnosu na cenu od pre 24 sata, po CoinGecko-u u 06:29 (CET). <a href="https://www.coingecko.com/en/coins/bitcoin">CoinGecko</a></li>
+<li><b>Likvidacije</b>: preko vikenda je BTC pao do $62.112, najniže od 14. jula, a ETH do $1.711. Za 24h je likvidirano oko $2 milijarde pozicija, uglavnom long. Probijen je 200-dnevni prosek od oko $73.000. <a href="https://www.straitstimes.com/business/bitcoin-tumbles-to-three-month-low-as-liquidations-accelerate">Više</a></li>
+<li><b>Pritisak</b>: tržište očekuje više kamate, a iz američkih spot BTC ETF-ova je od 30. 10. do 13. 11. izašlo skoro $3 milijarde. Tu je i posledica hakovanja Binance-a od $6 milijardi. BTC je pao oko 25% od 21. oktobra. <a href="https://www.straitstimes.com/business/bitcoin-tumbles-to-three-month-low-as-liquidations-accelerate">Više</a></li>
 </ul>]]></description>
-<content:encoded><![CDATA[<h2>⚡ Najvažnije danas</h2>
+<content:encoded><![CDATA[<h2>☀️ Jutarnji IT izveštaj – nedelja, 15. 11. 2026.</h2>
+<h2>⚡ Najvažnije danas</h2>
 <ul>
-<li>Microsoft je posle skoro dva dana potpuno vratio Outlook, Teams i Copilot. <a href="https://www.theverge.com/tech/1033864/microsoft-has-finished-restoring-service-after-its-massive-outlook-outage">Više</a></li>
-<li>Jensen Huang je podneo ostavku na mesto direktora NVIDIA-e, a privremeno je vodi finansijska direktorka Colette Kress. <a href="https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition">Više</a></li>
-<li>Kripto je u crvenom: ETH je pao ispod $2.000 prvi put od avgusta. <a href="https://biturai.com/en/daily-brief/2026-11-14">Više</a></li>
+<li>Jedan ruter na FAA lokaciji izazvao je zabranu poletanja u celim SAD, a haos traje do nedelje uveče. <a href="https://www.nbcnews.com/news/us-news/router-problem-one-faa-site-led-nationwide-ground-stop-rcna609325">Više</a></li>
+<li><b>UnrealIRCd CVE-2026-114713</b> se već napada. Ažurirajte na 6.2.7.1. <a href="https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html">Više</a></li>
+<li><b>BTC</b> je pao na $62.112, najniže od jula, uz oko $2 milijarde likvidacija. <a href="https://www.straitstimes.com/business/bitcoin-tumbles-to-three-month-low-as-liquidations-accelerate">Više</a></li>
 </ul>
-<h2>🔥 Ispadi</h2>
+<h2>🔥 Ispadi i incidenti</h2>
 <ul>
-<li>Outlook/M365 nije radio od četvrtka, sa prijavama iz preko 70 zemalja. Uzrok je greška pri ranijem proširenju mrežnog kapaciteta, a ne napad. Zakasneli mejlovi stižu sa vremenom isporuke, ne slanja. <a href="https://www.bbc.co.uk/news/articles/cwvg238zrnm5o">Više</a></li>
+<li><b>FAA (kontrola leta u SAD)</b>: novi ruter na jednoj udaljenoj FAA lokaciji zatrpao je mrežu kontrole leta zahtevima za konekciju. Desilo se tokom rutinske zamene starih bakarnih linija optikom. Poremećaj je pogodio 17 od 22 centra. U subotu je otkazano preko 6.400 letova, a preko 8.000 je kasnilo. Normalan saobraćaj se očekuje tek kasno u nedelju. Pouka: jedna loša mrežna promena bez izolacije može da obori ceo sistem. <a href="https://www.nbcnews.com/news/us-news/router-problem-one-faa-site-led-nationwide-ground-stop-rcna609325">Više</a> · <a href="https://www.reuters.com/3fec1b0a85a0/business/aerospace-defense/thousands-us-flights-canceled-delayed-air-travel-system-recovers-shutdown-2026-11-14/">Reuters</a></li>
 </ul>
 <h2>🛡️ Sajber bezbednost</h2>
 <ul>
-<li>Check Point ima zero-day (CVE-2026-123039) koji napadači već koriste da dobiju root na gateway-ima, a lanac se završava wiperom na VMware ESXi. Instalirajte novembarski Jumbo Hotfix. <a href="https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/">Više</a></li>
-<li>Cursor je potvrdio upad: preko njihovog marketplace-a se 11 sati delila zaražena Claude Code ekstenzija (verzije 2.1.312 i 2.1.313) sa SSH backdoor-om. <a href="https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/">Više</a></li>
-<li>SAD su ugasile severnokorejsku kampanju „FaceStealer“ (deepfake pozivi + ClickFix), koja je ukrala preko $400M u kriptu. <a href="https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/">Više</a></li>
+<li><b>UnrealIRCd CVE-2026-114713</b> (CVSS 8.6): modul labeled-response ne „čisti“ IRCv3 label tag. Na mreži sa 2+ povezana servera, običan korisnik može da ubaci komande koje se izvršavaju sa ovlašćenjima servera. Pogođene su verzije od 6.0.0 do pre 6.2.7.1. Napadi su krenuli dan posle hotfix-a od 7. novembra, a CISA ga je stavila u KEV. Ažurirajte na <b>6.2.7.1</b>. <a href="https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html">Više</a></li>
+<li><b>Check Point CVE-2026-123039</b> (novo u priči od juče): CISA ga je dodala u KEV katalog. Savezne agencije moraju da zakrpe do 16. novembra i da urade forenzičku proveru. Ako imate Check Point gateway, ne čekajte ponedeljak sa hotfix-om. <a href="https://securityaffairs.com/203040/hacking/u-s-cisa-adds-check-point-and-unrealircd-flaws-to-its-known-exploited-vulnerabilities-catalog.html">Više</a></li>
+<li><b>Quantum Systems</b> (nemački proizvođač vojnih dronova): napadači su preko kompromitovanog update servera poslali zlonamerni update za <b>QBase</b>, softver za planiranje misija. Nemačka vojska je dronove iz predostrožnosti prizemljila. Istragu vode MAD, BfV i BSI. Još jedan napad preko lanca snabdevanja (supply-chain). <a href="https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/">Više</a></li>
 </ul>
-<h2>🌐 Mreže</h2>
+<h2>🏢 Microsoft i velike firme</h2>
 <ul>
-<li>Fortinet je izbacio ranjivost u FortiOS OSPF-u ocenjenu sa 9.3 i FortiManager FGFM grešku (9.0) za koju ne treba prijava. Za sad se ne zna da se zloupotrebljavaju, a ciljane verzije su FortiOS 7.4.13 / 7.6.8. <a href="https://invitty.com/blog/fortinet-november-2026-advisories-fortios-fortimanager-fixes">Više</a></li>
-<li>CISA je dodala staru FortiOS RCE grešku (CVE-2025-25249) u katalog aktivno zloupotrebljavanih, jer se njom širi PivotC2 RAT. <a href="https://www.securityweek.com/fortinet-code-execution-flaw-exploited-in-pivotc2-rat-attacks/">Više</a></li>
-<li>MikroTik je zakrpio grešku u Linux kernelu koja može da sruši RouterOS 7. Ispravka je u 7.25.1 stable i 7.24.6 long-term, a v6 nije pogođen. <a href="https://mikrotik.com/supportsec/cve-2026-98432/">Više</a></li>
+<li><b>Windows novembarske zakrpe</b> kvare štampu dokumenata sa slikama nulte visine ili širine (npr. „nevidljivi“ vodeni žigovi). Pogođeni su Windows 10+ i Server 2016+, najviše Word preko GDI-ja. Isti paket pravi i greške aktivacije 0x80041008, a ne instalira se na sisteme sa oktobarskim preview update-om. Ako štampa pukne posle update-a, uzrok je poznat. <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/">Više</a></li>
+<li><b>Microsoft 365 Education</b>: besplatan studentski mejl i alati se gase pri prvoj obnovi ugovora posle 1. 1. 2028. Novi besplatni A0 nema Exchange Online, SharePoint ni Teams. Okvirne cene su oko $2/$4/$6 po studentu godišnje za A2/A3/A5. Nextcloud i Collabora već nude prelazak. <a href="https://www.theregister.com/saas/2026/11/14/microsofts-school-email-bill-gives-rivals-something-to-smile-about/5309296">Više</a></li>
+<li><b>NVIDIA</b>: američki ministar finansija Scott Bessent pita da li je NVIDIA znala da prodaje AI GPU-ove fiktivnim firmama. Traži da odgovaraju svi u firmi koji su za to krivi, ali kaže da ne zna da li je Huang znao. Nova pravila ne traži, samo da se postojeća sprovode. <a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/u-s-treasury-secretary-questions-whether-nvidia-knowingly-sold-ai-gpus-to-shell-companies-says-company-itself-is-responsible-i-think-it-is-important-that-anyone-at-the-company-there-be-held-accountable-for-that">Više</a></li>
 </ul>
-<h2>🐧 Linux</h2>
+<h2>🌐 Mreže i infrastruktura</h2>
 <ul>
-<li>Izašao je Fedora 45 sa GNOME 51 i kernelom 7.2. <a href="https://www.phoronix.com/news/Fedora-45-Released">Više</a></li>
-<li>Intel je poslao prve patcheve za Linux kernel za Razor Lake i Coral Rapids. <a href="https://wccftech.com/intel-begins-early-linux-enablement-razor-lake-and-coral-rapids/">Više</a></li>
+<li><b>UniFi Network 11.0.102</b> (RC, izlazi postepeno): popravlja neuspele nadogradnje na Network 11, padanje SD-WAN tunela posle nadogradnje i gubljenje Default Network-a. Traži UniFi OS 6.0+. Pažnja: prelazak sa 10.x briše istoriju statistike i sve prebacuje na Zone-Based Firewall. Korisnici javljaju da .102 rešava zaglavljenu migraciju sa 10.6.111, pa ako ste zapeli na 11.0.99, sačekajte .102. <a href="https://community.ui.com/releases/UniFi-Network-Application-11-0-102/15b502c5-5ac6-4c96-8692-1f3616e46121">Više</a></li>
+</ul>
+<h2>🐧 Linux i open source</h2>
+<ul>
+<li><b>glibc (USN-9065-1)</b>: Ubuntu je zakrpio 7 grešaka. Najopasnije su race u obradi $ORIGIN kod setuid programa, koji može dati root lokalnom napadaču (CVE-2026-86805), i path traversal preko LANGUAGE promenljive (CVE-2026-84243). Za 24.04 ažurirajte na libc6 2.39-0ubuntu8.12. <a href="https://ubuntu.com/security/notices/USN-9065-1">Više</a></li>
+<li><b>Apache httpd (USN-9090-1)</b>: greške u mod_http2 (CVE-2026-119618) i mod_vhost_alias (CVE-2026-109163) mogu dovesti do izvršavanja koda na daljinu. Pogođeni su Ubuntu 14.04 do 26.10, a Fedora je izbacila svoje httpd/mod_http2 zakrpe. Za 24.04 ažurirajte na 2.4.58-1ubuntu8.19. <a href="https://ubuntu.com/security/notices/USN-9090-1">Više</a></li>
 </ul>
 <h2>🖥️ Hardver</h2>
 <ul>
-<li>AMD je predstavio Instinct MI450X i tvrdi da je MI455X do 30% brži od NVIDIA Vera Rubin u inferenci. <a href="https://newsroom.amd.com/news/amd-advances-instinct-mi400-series-ai-scientific-computing/">Više</a></li>
+<li><b>NVIDIA Blackwell</b>: istraživači tvrde da su DeepSeek, Kimi i drugi kineski modeli trenirani na Blackwell čipovima. Metoda je „otisak“ iz nasumične inicijalizacije težina, koji zavisi od broja SM jedinica (Hopper 132, B serija 148, GB 152). To ne dokazuje kršenje izvoznih zabrana, jer je iznajmljivanje čipova u inostranstvu zasad legalno. <a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/researchers-allege-deepseek-kimi-and-other-chinese-ai-models-were-trained-on-export-controlled-nvidia-blackwell-chips-statistical-analysis-on-model-weights-reveals-high-correlation-to-nvidia-hardware">Više</a></li>
 </ul>
 <h2>💰 Kripto</h2>
 <ul>
-<li>BTC je oko $65.600, što je približno 8% manje od jučerašnjeg zatvaranja, a ETH oko $1.844 (oko 8,6% manje). <a href="https://exa.ai/library/markets/crypto/BTC">BTC</a> · <a href="https://exa.ai/library/markets/crypto/ETH">ETH</a></li>
-<li>Pad pokreću odliv novca iz BTC ETF-ova (preko $2,35 milijardi za dve nedelje) i rast prinosa na američke obveznice na 5,15%. Indeks straha i pohlepe je na 20, što znači „ekstremni strah“. <a href="https://biturai.com/en/daily-brief/2026-11-14">Više</a></li>
+<li><b>BTC</b> je na $64.833 (−3,3%), a <b>ETH</b> na $1.806,83 (−4,8%). Promena se meri u odnosu na cenu od pre 24 sata, po CoinGecko-u u 06:29 (CET). <a href="https://www.coingecko.com/en/coins/bitcoin">CoinGecko</a></li>
+<li><b>Likvidacije</b>: preko vikenda je BTC pao do $62.112, najniže od 14. jula, a ETH do $1.711. Za 24h je likvidirano oko $2 milijarde pozicija, uglavnom long. Probijen je 200-dnevni prosek od oko $73.000. <a href="https://www.straitstimes.com/business/bitcoin-tumbles-to-three-month-low-as-liquidations-accelerate">Više</a></li>
+<li><b>Pritisak</b>: tržište očekuje više kamate, a iz američkih spot BTC ETF-ova je od 30. 10. do 13. 11. izašlo skoro $3 milijarde. Tu je i posledica hakovanja Binance-a od $6 milijardi. BTC je pao oko 25% od 21. oktobra. <a href="https://www.straitstimes.com/business/bitcoin-tumbles-to-three-month-low-as-liquidations-accelerate">Više</a></li>
 </ul>]]></content:encoded>
 </item>
 </channel>
