@@ -5,12 +5,12 @@
 <link>https://icemonk79.github.io/it-rss/</link>
 <description>Dnevni pregled IT, sajber bezbednosti, hardvera i kripto vesti</description>
 <language>sr</language>
-<lastBuildDate>Sat, 28 Nov 2026 05:56:06 +0100</lastBuildDate>
+<lastBuildDate>Sat, 28 Nov 2026 05:59:37 +0100</lastBuildDate>
 <item>
 <title>Jutarnji IT izveštaj – subota, 28. 11. 2026.</title>
 <link>https://icemonk79.github.io/it-rss/</link>
-<guid isPermaLink="false">it-izvestaj-2026-11-28-0556</guid>
-<pubDate>Sat, 28 Nov 2026 05:56:06 +0100</pubDate>
+<guid isPermaLink="false">it-izvestaj-2026-11-28-0559</guid>
+<pubDate>Sat, 28 Nov 2026 05:59:37 +0100</pubDate>
 <description><![CDATA[<h2><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYBAMAAAASWSDLAAAAMFBMVEXh5+yISTYAAACbZFKoqa7o6+7epoy2xc7Q2d+qrbDNkXbZ4uiVp7KXqLOCPinVn4ZE5cPmAAAAEHRSTlP8/gD+9hP7/1oL/qJol/9cVq7Z+wAAAO5JREFUeNqdx7FLAmEYgPHH97u7WqK+QcJNjhKDCqVQUIgzj1oc+hMCqaagIXBpCFcRQso5aCsEocmWAokKIoKDLKyxlnYp8a6WwL1n+j3K1uPO6lc38qJ1TmmVvr/86B1vbU5ehOydg4Xk+08dKDM9U8Fat2C0aVLbx7GSmRMXTOLk9alOLelFTImrB2mx6/GWQBJZQFrAuRI8gACYR4gSdBBAkMcJ6AR5IOQL7ShQBZltSnfg2fCJPXflswYYrusAJv/JGdLgZjh7qr98++eRQzVVDF8DUBo7MryNs7s0UH1asQx/u9AoAc+x1+9fH/k9EKcbWd4AAAAASUVORK5CYII=" alt="" width="20" height="20"/> Jutarnji IT izveštaj – subota, 28. novembar 2026</h2>
 <h2><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYBAMAAAASWSDLAAAAMFBMVEX/piT/qjL/qlX/fx//rzP/AAD/rTL/VVX//38AAAD/rDL/tDX/uzz//wD/qy7/rDJoAzWAAAAAEHRSTlMcXAMD0wGQAwIA+vsHARCrGXo8TwAAAQhJREFUeNotjjtLA0EABmf31oMIki1M4wNUxCJwIb2ggtFCFEUQMfjAwsqANv4CsbNIFVkQIlhIQEiZIhIORBFEiBAsBW1tLlhcToxnselm+IpvhAFA/b7uaV8BwPnj1NE+EgDnZLudB7t407WZ7LGV+04t0ICzAqpbmk1llkECl6NlPhqAguhgpyq2PM2dgpu3EWJdBBTOZj0g9TDG+4sw2fVyAIBeleqpxyL8cT7rax0rh8+iOBxbdr+6KjE+wV+ySmLDbwoDhEOIhWsXSS43n9QMRiUQBgp9V6KRdm3bZBs3swgIQ0ha7N62bKgcEGenLQAJF4Wo4tGTfLBUadpjo+L+7zkfgH9rLko/k3G0kwAAAABJRU5ErkJggg==" alt="HITNO" width="20" height="20"/> Najvažnije danas</h2>
 <ul>
@@ -86,7 +86,7 @@
 <p>8. <b>Retrofit:</b> Furuno navodi da novi NXT reduktori antene imaju isto mesto za montažu kao više prethodnih generacija, pa je zamena starog radara novim jednostavnija i jeftinija.</p>
 <p>9. <b>Šta se i dalje održava:</b> solid-state ne znači „bez održavanja broda“. Antena, reduktor (gearbox), kablovi i konektori i dalje traže redovan pregled. Furuno kaže samo da nema potrošnog dela u predajniku.</p>
 <p>10. <b>Lista za proveru na tvom brodu:</b> (a) u priručniku radara nađi da li je magnetronski ili solid-state i koliko sati rada proizvođač predviđa do zamene magnetrona; (b) prati broj sati predaje u meniju radara; (c) ako radar slabije prikazuje udaljene i slabe mete, posumnjaj na istrošen magnetron; (d) rezervni magnetron drži samo ako ga tvoj model koristi i servis to preporučuje; (e) pri zameni radara traži solid-state model sa istim nosačem antene.</p>
-<p>11. <b>Pouka:</b> solid-state radar košta više na početku, ali na brodu gde radar radi stalno uštedi na zameni magnetrona i na stajanju zbog kvara. AIS mete uvek potvrđuj radarskim ehom (vidi današnju Kpler vest).</p>
+<p>11. <b>Pouka:</b> na brodu gde radar radi stalno, solid-state štedi na zameni magnetrona i na servisu predajnika, a Furuno ga zato preporučuje za velike brodove sa neprekidnim radom radara. AIS mete uvek potvrđuj radarskim ehom (vidi današnju Kpler vest).</p>
 <p>Sledeća tema: (e), ciklus 2. <a href="https://www.furuno.com/en/technology/radar/solution/index.html">Više – Furuno: solid-state radar tehnologija</a> | <a href="https://www.furunousa.com/en/company/news_room/2020_imo_nxt_radars">Furuno NXT najava</a></p>]]></description>
 <content:encoded><![CDATA[<h2><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYBAMAAAASWSDLAAAAMFBMVEXh5+yISTYAAACbZFKoqa7o6+7epoy2xc7Q2d+qrbDNkXbZ4uiVp7KXqLOCPinVn4ZE5cPmAAAAEHRSTlP8/gD+9hP7/1oL/qJol/9cVq7Z+wAAAO5JREFUeNqdx7FLAmEYgPHH97u7WqK+QcJNjhKDCqVQUIgzj1oc+hMCqaagIXBpCFcRQso5aCsEocmWAokKIoKDLKyxlnYp8a6WwL1n+j3K1uPO6lc38qJ1TmmVvr/86B1vbU5ehOydg4Xk+08dKDM9U8Fat2C0aVLbx7GSmRMXTOLk9alOLelFTImrB2mx6/GWQBJZQFrAuRI8gACYR4gSdBBAkMcJ6AR5IOQL7ShQBZltSnfg2fCJPXflswYYrusAJv/JGdLgZjh7qr98++eRQzVVDF8DUBo7MryNs7s0UH1asQx/u9AoAc+x1+9fH/k9EKcbWd4AAAAASUVORK5CYII=" alt="" width="20" height="20"/> Jutarnji IT izveštaj – subota, 28. novembar 2026</h2>
 <h2><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYBAMAAAASWSDLAAAAMFBMVEX/piT/qjL/qlX/fx//rzP/AAD/rTL/VVX//38AAAD/rDL/tDX/uzz//wD/qy7/rDJoAzWAAAAAEHRSTlMcXAMD0wGQAwIA+vsHARCrGXo8TwAAAQhJREFUeNotjjtLA0EABmf31oMIki1M4wNUxCJwIb2ggtFCFEUQMfjAwsqANv4CsbNIFVkQIlhIQEiZIhIORBFEiBAsBW1tLlhcToxnselm+IpvhAFA/b7uaV8BwPnj1NE+EgDnZLudB7t407WZ7LGV+04t0ICzAqpbmk1llkECl6NlPhqAguhgpyq2PM2dgpu3EWJdBBTOZj0g9TDG+4sw2fVyAIBeleqpxyL8cT7rax0rh8+iOBxbdr+6KjE+wV+ySmLDbwoDhEOIhWsXSS43n9QMRiUQBgp9V6KRdm3bZBs3swgIQ0ha7N62bKgcEGenLQAJF4Wo4tGTfLBUadpjo+L+7zkfgH9rLko/k3G0kwAAAABJRU5ErkJggg==" alt="HITNO" width="20" height="20"/> Najvažnije danas</h2>
@@ -163,7 +163,7 @@
 <p>8. <b>Retrofit:</b> Furuno navodi da novi NXT reduktori antene imaju isto mesto za montažu kao više prethodnih generacija, pa je zamena starog radara novim jednostavnija i jeftinija.</p>
 <p>9. <b>Šta se i dalje održava:</b> solid-state ne znači „bez održavanja broda“. Antena, reduktor (gearbox), kablovi i konektori i dalje traže redovan pregled. Furuno kaže samo da nema potrošnog dela u predajniku.</p>
 <p>10. <b>Lista za proveru na tvom brodu:</b> (a) u priručniku radara nađi da li je magnetronski ili solid-state i koliko sati rada proizvođač predviđa do zamene magnetrona; (b) prati broj sati predaje u meniju radara; (c) ako radar slabije prikazuje udaljene i slabe mete, posumnjaj na istrošen magnetron; (d) rezervni magnetron drži samo ako ga tvoj model koristi i servis to preporučuje; (e) pri zameni radara traži solid-state model sa istim nosačem antene.</p>
-<p>11. <b>Pouka:</b> solid-state radar košta više na početku, ali na brodu gde radar radi stalno uštedi na zameni magnetrona i na stajanju zbog kvara. AIS mete uvek potvrđuj radarskim ehom (vidi današnju Kpler vest).</p>
+<p>11. <b>Pouka:</b> na brodu gde radar radi stalno, solid-state štedi na zameni magnetrona i na servisu predajnika, a Furuno ga zato preporučuje za velike brodove sa neprekidnim radom radara. AIS mete uvek potvrđuj radarskim ehom (vidi današnju Kpler vest).</p>
 <p>Sledeća tema: (e), ciklus 2. <a href="https://www.furuno.com/en/technology/radar/solution/index.html">Više – Furuno: solid-state radar tehnologija</a> | <a href="https://www.furunousa.com/en/company/news_room/2020_imo_nxt_radars">Furuno NXT najava</a></p>]]></content:encoded>
 </item>
 </channel>
